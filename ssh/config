@@ -1,0 +1,13 @@
+Host name-node
+  User root
+  HostName name-node.icarus.io
+  IdentityFile ~/.ssh/name-node.icarus.io
+
+Host namenode
+  User root
+  HostName name-node.icarus.io
+  IdentityFile ~/.ssh/name-node.icarus.io.key
+
+Host monitoring-vm
+  User root
+  HostName monitoring-vm
